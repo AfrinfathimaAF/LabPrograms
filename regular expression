@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//quantifiers specify hoe many times a character or group should appeaer
+let text="affuuu";
+let pattern=/\a*/;
+let result=text.match(pattern);
+console.log(result);
+let text2="hi hello how are you?\n hi iam fine ";
+let patter2=text2.match(pattern2);
+console.log(result2);
+//^-> start of string(or line,if m)
+//$-> end of string (or line,if m)
+let number="2456abcd"
+let pattern3=/\d+\w/g;
+let result4=number.match(pattern3);
+console.log(result4);
+    </script>
+    
+</body>
+</html>
